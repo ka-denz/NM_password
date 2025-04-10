@@ -2,7 +2,9 @@
     font-family: colonna;
     src: url(COLONNA.TTF);
 }
-
+p{
+    font-size: 50px;
+  }
 html {
     height: 100%;
   }
@@ -47,11 +49,12 @@ html {
     margin: 0;
     padding: 5px;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: ;
     color: #8a0000;
     border: 5px solid #8a0000;
     background-color: #ffffff;
     opacity: 0;
+    font-size: 30px;
   }
   
   #error-msg-second-line {
@@ -67,12 +70,14 @@ html {
     display: grid;
     justify-items: center;
     align-items: center;
+    font-size: 50px;
   }
   
   .login-form-field::placeholder {
     font-family: colonna;
     font-weight: 0;
     color: #000000;
+    font-size: 30px;
   }
   
   .login-form-field {
@@ -83,13 +88,14 @@ html {
     border-radius: 3px;
     outline: none;
     padding: 0px 0px 5px 5px;
+    font-size: 30px;
   }
   
   #login-form-submit {
     font-family: colonna;
     font-weight: 0;
     width: 100%;
-    height: 150%;
+    height: 100%;
     padding: 7px;
     border: none;
     border-radius: 5px;
@@ -97,6 +103,8 @@ html {
     background-color: #3a3a3a;
     cursor: pointer;
     outline: none;
+    font-size: 30px;
+    margin-top: 10px;
   }
 
   
