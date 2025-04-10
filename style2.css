@@ -1,0 +1,76 @@
+@font-face {
+    font-family: colonna;
+    src: url(COLONNA.TTF);
+}
+
+#login-error-msg-holder {
+    font-family: colonna;
+    font-weight: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+
+#login-error-msg {
+    font-family: colonna;
+    font-weight: 0;
+    width: 23%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 5px solid #8a0000;
+    background-color: #ffffff;
+    opacity: 0;
+  }
+
+  #error-msg-second-line {
+    font-family: colonna;
+    font-weight: 0;
+    display: block;}
+
+    #login-form {
+        font-family: colonna;
+        font-weight: 0;
+        align-self: flex-start;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+      }
+
+      .login-form-field::placeholder {
+        font-family: colonna;
+        font-weight: 0;
+        color: #000000;
+      }
+
+      .login-form-field {
+        font-family: colonna;
+        border: none;
+        border: 1px solid #000000;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        outline: none;
+        padding: 0px 0px 5px 5px;
+      }
+
+      #login-form-submit {
+        font-family: colonna;
+        font-weight: 0;
+        width: 100%;
+        height: 150%;
+        padding: 7px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color: #3a3a3a;
+        cursor: pointer;
+        outline: none;
+      }
+    
+      
