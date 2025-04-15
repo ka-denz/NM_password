@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (password === "nousmasseter") {
         alert("You have successfully entered the password.");
-        window.location.href = "https://bit.ly/NMPassword";;
+        window.location.href = "https://ka-denz.github.io/NM_password/";;
     } else {
         loginErrorMsg.style.opacity = 1;
     }
