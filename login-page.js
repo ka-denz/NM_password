@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (e) => {
     e.preventDefault();
     const password = loginForm.password.value;
 
-    if (password === "nousmasseter") {
+    if (password === "NOUSMASSETER") {
         alert("You have successfully entered the password.");
         window.location.href = "https://ka-denz.github.io/NM_password/";;
     } else {
