@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (password === "NOUSMASSETER") {
         alert("You have successfully entered the password.");
-        window.location.href = "https://ka-denz.github.io/NM_password/";;
+        window.location.href = "https://youtu.be/R3RoTxQNwx0?si=hSc4lZDLJDdQKLix";;
     } else {
         loginErrorMsg.style.opacity = 1;
     }
